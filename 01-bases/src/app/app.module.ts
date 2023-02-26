@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 //Crear un modulo ContadorModulo
 //Declaraciones, y exportaciones
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 import { HeroesModule } from './heroes/heroes.module';
 
 
@@ -16,7 +17,8 @@ import { HeroesModule } from './heroes/heroes.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DbzModule
     //Importar aqui
   ],
   providers: [],
